@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   # reversed.join(" ")
   
 #.collect method
-  sentence.split(" ").collect { |word| reversed << word.reverse }.join(" ")
+  sentence.split(" ").collect { |word| reversed << word.reverse }
 end
 
 sentence = "Hi my name is Paul. Nice to meet you."
